@@ -104,5 +104,3 @@ class Dashboard_Widget {
 }
 
 // end Dashboard_Graphs_Widget class
-
-require_once('test-widget.php');
