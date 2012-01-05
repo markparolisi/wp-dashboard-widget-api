@@ -5,7 +5,7 @@
   Plugin URI: https://github.com/markparolisi/wp-dashboard-widget-api
   Description:
   Author: markparolisi
-  Version: 0.2
+  Version: 0.3
   Author URI: http://markparolisi.com/
  */
 if (!class_exists('Dashboard_Widgets')) {

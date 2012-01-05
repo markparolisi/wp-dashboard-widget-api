@@ -3,7 +3,7 @@ Contributors: markparolisi
 Tags: widget
 Requires at least: 3.0
 Tested up to: 3.3.1
-Stable tag: 0.2
+Stable tag: 0.3
 
 Easily add configurable widgets to your dashboard using a simple class.
 
@@ -21,7 +21,7 @@ with methods for a settings form and widget display. A sample widget is included
 
 == Changelog ==
 
-= 0.5 =
+= 0.3 =
 
 Updating documentation
 
