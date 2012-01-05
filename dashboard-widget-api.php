@@ -2,11 +2,11 @@
 
 /*
   Plugin Name: Dashboard Widgets API
-  Plugin URI: http://plugins.voceconnect.com/
+  Plugin URI: https://github.com/markparolisi/wp-dashboard-widget-api
   Description:
   Author: markparolisi
-  Version: 0.1
-  Author URI: http://plugins.voceconnect.com/
+  Version: 0.2
+  Author URI: http://markparolisi.com/
  */
 if (!class_exists('Dashboard_Widgets')) {
 
@@ -48,7 +48,7 @@ if (!class_exists('Dashboard_Widgets')) {
 
 }
 
-// end Dashboard_Graphs class
+// end Dashboard_Widgets class
 
 class Dashboard_Widget {
 
@@ -103,4 +103,4 @@ class Dashboard_Widget {
 
 }
 
-// end Dashboard_Graphs_Widget class
+// end Dashboard_Widget class
