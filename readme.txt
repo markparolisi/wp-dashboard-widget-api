@@ -1,9 +1,10 @@
 === Plugin Name ===
 Contributors: markparolisi, voceplatforms
 Tags: widget
+Version: 1.0
 Requires at least: 3.0
-Tested up to: 3.3.1
-Stable tag: 0.3
+Tested up to: 3.4
+Stable tag: 1.0
 
 Easily add configurable widgets to your dashboard using a simple class.
 
