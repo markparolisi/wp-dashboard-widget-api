@@ -1,5 +1,5 @@
 === Plugin Name ===
-Contributors: markparolisi
+Contributors: markparolisi, voceplatforms
 Tags: widget
 Requires at least: 3.0
 Tested up to: 3.3.1
@@ -21,8 +21,12 @@ with methods for a settings form and widget display. A sample widget is included
 
 == Changelog ==
 
-= 0.3 =
+= 1.0 =
+* Documenation
+* Better type checking and returns
+* Style formatting
 
+= 0.3 =
 Updating documentation
 
 = 0.1 =
