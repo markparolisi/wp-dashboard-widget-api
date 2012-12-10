@@ -1,5 +1,7 @@
 <?php
-
+/**
+ * Demo Dashboard widget 
+ */
 class Test_Widget {
 
 	public $name = 'Test Widget';
@@ -7,12 +9,13 @@ class Test_Widget {
 	public function form( $options ) {
 		$class = __CLASS__;
 		$options = $options[$class];
-		echo "<label>MyOption :<input type='text' name='{$class}[MyOption]' value='$options[MyOption]' /></label>";
+		echo '<label>First Name :<input type="text" name="'.$class.'[first_name]" value="' . $options['first_name'] . '" /></label>';
 	}
 
 	public function widget( $options ) {
 		$options = $options[__CLASS__];
-		return "this is $options[MyOption]'s Plugin";
+		$first_name = (isset($options['first_name'])) ? $options['first_name'] : "No One";
+		return "this is $first_name's Plugin";
 	}
 
 }
